@@ -31,61 +31,8 @@ Don't forget to include a title for your page, both in the header and on the pag
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Exercise 1: Weather Conditions</title>
-    <style>
-        /* I want to make it look fresh so I added some css*/
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            text-align: center;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom, #f0f8ff, #87ceeb); 
-        }
-        div {
-            max-width: 600px; 
-            padding: 20px; 
-            box-sizing: border-box; 
-            background-color: #ffffff; 
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            margin-bottom: 20px;
-            font-size: 1.8em;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.5;
-        }
-        /* I want to contain those colors in a box */
-        .weather-box {
-            display: inline-block;
-            padding: 5px 10px;
-            margin: 2px 5px;
-            font-weight: bold;
-            border-radius: 5px;
-            color: #fff;
-            transition: all 0.3s ease; /* Smooth transition for hover effects */
-        }
-
-        /* Assign colors to the weather boxes */
-        .rain { background-color: #007bff; } 
-        .sunshine { background-color: #ffc107; } 
-        .clouds { background-color: #6c757d; } 
-        .hail { background-color: #17a2b8; } 
-        .sleet { background-color: #20c997; }
-        .snow { background-color: #e9ecef; color: #212529; } 
-        .wind { background-color: #28a745; } 
-
-        /* Hover effect */
-        .weather-box:hover {
-            transform: scale(1.1); 
-            filter: brightness(1.2);
-        }
-    </style>
 </head>
+<link rel="stylesheet" href="exercise_styles1.css">
 <body>
     <div>
         <h1>PHP Exercise 1: Weather Conditions</h1>
