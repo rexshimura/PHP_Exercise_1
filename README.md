@@ -1,26 +1,27 @@
 <!-- 
 -------------------------------------------
-INTEGRATIVE PROGRAMMING : PHP Exercise 2
-TITLE: LARGEST CITIES
+INTEGRATIVE PROGRAMMING : PHP Exercise 1
+TITLE: WEATHER CONDITIONS
 -------------------------------------------
 JOHN PAUL P. MAHILOM
 BSIT II-B 
-12/02/2025 
+11/02/2025 
 -------------------------------------------
 INSTRUCTIONS:
 
-For this exercise, you will use a list of ten of the largest cities in the world.
-(Please note, these are not the ten largest, just a selection of ten from the
-largest cities.) Create an array with the following values: 
-( Tokyo, Mexico, City, New York City, Mumbai, Seoul, Shanghai, Lagos, Buenos Aires, Cairo, London. )
+Arrays allow you to assign multiple values to one variable. For this PHP exercise,
+write an array variable of weather conditions with the following values: 
+( rain, sunshine, clouds, hail, sleet, snow, wind. )
 
-Print these values to the browser separated by commas, using a loop to iterate over
-the array. Sort the array, then print the values to the browser in an unordered list, again using a loop.
+Using the array variable for all the
+weather conditions, echo the following statement to the browser:
 
-Add the following cities to the array: 
-( Los Angeles, Calcutta, Osaka, Beijing. )
+"We've seen all kinds of weather this month. At the beginning of the month, we had
+snow and wind. Then came sunshine with a few clouds and some rain. At least we
+didn't get any hail or sleet."
 
-Sort the array again, and print it once more to the browser in an unordered list.
+Don't forget to include a title for your page, both in the header and on the page itself.
+
 -------------------------------------------
 -->
 
